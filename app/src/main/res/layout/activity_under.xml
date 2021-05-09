@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4c430"
+    tools:context=".NormalActivity">
+
+    <TextView
+        android:id="@+id/tvUnderHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Your BMI : "
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="53dp"
+        android:layout_toRightOf="@+id/tvUnderHeading"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgOver"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvUnderHeading"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/weakness"/>
+
+    <TextView
+        android:id="@+id/tvUnderWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imgOver"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvUnderWeight"
+        android:text="Here are some advice for you : "
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgIconDiet"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvinfo"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toStartOf="@+id/tvAdvice1"
+        android:src="@drawable/diet" />
+
+    <TextView
+        android:id="@+id/tvAdvice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvinfo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="127dp"
+        android:text="Have bigger meals"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imgIconDiet"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/tvAdvice2"
+        android:src="@drawable/sleep" />
+
+    <TextView
+        android:id="@+id/tvAdvice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAdvice1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="129dp"
+        android:text="Get quality sleep"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="italic" />
+</RelativeLayout>
