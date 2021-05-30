@@ -24,5 +24,5 @@ In this case we have normal BMI.
 
 ## Output Screens
 <img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen1.PNG" alt="unable to load images" width="190" height="390"/><img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen2.PNG" alt="unable to load images" width="190" height="390"/>
-<img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen3.PNG" alt="unable to load images" width="190" height="290"/>
+<img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen3.PNG" alt="unable to load images" width="190" height="390"/>
 <img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen4.PNG" alt="unable to load images" width="190" height="390"/>
