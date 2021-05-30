@@ -21,3 +21,6 @@ In this case we have normal BMI.
 3)You can also view BMI chart by clicking on calendar icon on actionbar.
 
 **The screen size of emulator used here is 5.7 inch. Screen size of 5 inch or more is recommended.
+
+## Output Screens
+<img src="https://github.com/ilyasdabholkar/Android_BMI_Calculator/blob/main/demo/screen1.PNG" alt="unable to load images" width="250" height="520"/>
